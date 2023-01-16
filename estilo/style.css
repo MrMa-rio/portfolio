@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(45deg, #a52a2a, #000000);
+    
+}
+.cabeçalho {
+
+    text-align: center;
+    font-variant: small-caps;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to left,#ffffff -10%, #000000 20%,rgba(220, 20, 60, 0.933) 80%,); 
+    color: rgba(255, 255, 255, 0.901);
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.36);
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.063);
+    padding: 10px;
+    
+}
+#inicial{
+    margin-bottom: 100px;
+}
+nav{
+    
+    width: 100vw;
+    
+    box-shadow: 1px 1px 4px #00000018;
+}
+
+nav > a img{
+    width: 40px;
+    padding: 6px;
+    border-radius: 5px;
+    
+    
+}
+nav a img:hover{
+
+    top: -2px;
+    background-color: rgba(226, 58, 58, 0.194);
+    box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.398);
+
+}
+
+.modulo{
+    font-variant: small-caps;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.312);
+    background-color: rgba(165, 42, 42, 0.194);
+    color: rgb(192, 79, 79);
+    border: 1px solid rgba(165, 42, 42, 0.124);
+    border-radius: 12px;
+    padding: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 200px;
+    display: block;
+    margin: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+
+}
+
+.modulo:hover{
+    top: -2px;
+    background-color: rgba(226, 58, 58, 0.194);
+    box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.398);
+}
+.modulo::before{
+    
+}
+footer{
+
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.2em;
+    font-variant: small-caps;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.411);
+    background-color: rgba(52, 13, 13, 0.526);
+}
+footer a {
+    text-decoration: none;
+    color: rgb(192, 79, 79);
+    font-variant: normal;
+    
+
+}
+footer a:hover{
+    
+    color: rgb(255, 102, 102);
+}
