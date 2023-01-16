@@ -4,27 +4,20 @@
     padding: 0px;
     margin: 0px;
 }
-html,body{
+body{
 
-    height: 100vh;
-    width: 100vw;
+    background-repeat: no-repeat;
+    min-height: 100vh;
     background-image: linear-gradient(45deg, #a52a2a, #000000);
-    position: absolute;
+    
+    
 }
 
-nav a img{
-    display: block;
-    width: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    bottom: 10%;
-
-}
 
 
 main{
-    position: relative;
-    top: 5%;
+    
+    
     background-color: #ffffff23;
     max-width: 400px;
     margin-left: auto;
@@ -76,16 +69,18 @@ p a:hover{
     padding: 2px;
 }
 
+
 footer a img{
-    position: relative;
+    
     display: block;
     width: 40px;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 60px;
+    
 }
 footer a img:hover{
-    top: -2px;
+    
     background-color: rgba(226, 58, 58, 0.194);
     box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.398);
     padding: 4px;
